@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Boon Portfolio — Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-enter">
+
+<header class="site-header">
+  <div class="brand">Boon</div>
+  <nav>
+    <a href="index.html" data-link>Home</a>
+    <a href="about.html" data-link>About</a>
+    <a href="education.html" data-link>Education</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Hello — Binary Intro</h1>
+    <p class="subtitle">Click the button to reveal the translation.</p>
+
+    <pre id="binaryBlock" class="binary">
+01001000-01100101-01101100-01101100-01101111-00100001-00100000-01001001-00100111-01101101-00100000...
+    </pre>
+
+    <div class="controls">
+      <button id="revealBtn" class="btn">🔓 Reveal meaning</button>
+      <button id="copyBtn" class="btn light">📋 Copy binary</button>
+      <span id="copyAck" class="copy-ok">Copied!</span>
+    </div>
+
+    <div id="decoded" class="decoded" aria-hidden="true">
+      <h2>About Me</h2>
+      <p>Hello! I'm Boon, a 7th-grade student at Suankularb Wittayalai School. I love science, robotics, and literature. I enjoy building robots and experimenting to understand how the world works.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <small>Made by Boon • Hosted on Netlify</small>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
